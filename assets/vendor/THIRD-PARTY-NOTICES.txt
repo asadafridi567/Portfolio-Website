@@ -1,0 +1,13 @@
+Three.js 0.186.1
+Copyright (c) 2010-2026 three.js authors
+MIT license: see LICENSE-three.txt.
+
+GSAP and ScrollTrigger 3.15.0
+Copyright (c) GreenSock.
+Distributed under the GSAP Standard "no charge" license:
+https://gsap.com/standard-license/
+
+Hanken Grotesk and IBM Plex Mono font files
+Latin WOFF2 files supplied by Fontsource 5.3.0.
+The SIL Open Font License notices are in ../fonts/OFL-Hanken-Grotesk.txt
+and ../fonts/OFL-IBM-Plex-Mono.txt.

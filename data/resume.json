@@ -1,0 +1,186 @@
+{
+  "profile": {
+    "name": "Muhammad Asad",
+    "title": "Data Engineer",
+    "location": "Islamabad, Pakistan",
+    "summary": "Data Engineer building cloud-native ETL/ELT pipelines with Azure Data Factory, Databricks and PySpark. Designs Medallion Architecture lakehouses, uses Delta Live Tables, and enforces data governance with Unity Catalog. Strong foundation in data modeling, SQL and end-to-end analytics solutions.",
+    "website": "https://asadafridi567.github.io/Portfolio-Website/",
+    "flightRecordsModeled": "10.5M+",
+    "heroHeadline": "Pipelines, models and tests for data you can trust.",
+    "heroSupportingText": "Azure Data Factory, Databricks, PySpark, dbt and Airflow, from ingestion to Power BI.",
+    "specialties": ["Medallion Architecture", "Delta Live Tables", "Unity Catalog", "dbt + Airflow"]
+  },
+  "skills": [
+    {
+      "group": "Cloud & Data Platforms",
+      "items": ["Azure Data Factory", "Azure Data Lake Storage Gen2", "Azure Databricks", "Azure SQL Database", "Unity Catalog", "AWS (fundamentals)", "Microsoft Fabric"]
+    },
+    {
+      "group": "Big Data & Processing",
+      "items": ["PySpark", "Apache Spark", "Delta Lake", "Delta Live Tables", "Autoloader", "Spark Structured Streaming"]
+    },
+    {
+      "group": "ETL/ELT & Warehousing",
+      "items": ["ETL/ELT pipeline design", "Data lakehouse and warehouse concepts", "Data quality and testing", "Query optimization"]
+    },
+    {
+      "group": "Languages & Frameworks",
+      "items": ["Python", "SQL", "DAX", "Django", "JavaScript", "React"]
+    },
+    {
+      "group": "DevOps & Tools",
+      "items": ["Git", "CI/CD", "Docker", "Logic Apps", "Power BI", "PostgreSQL", "Apache Airflow", "dbt"]
+    }
+  ],
+  "experience": [
+    {
+      "role": "Data Engineer",
+      "company": "Renewables First",
+      "location": "",
+      "start": "Current",
+      "end": "Present",
+      "current": true,
+      "bullets": [
+        "Creating a Central Data Repository in Microsoft Fabric to bring together data from each department.",
+        "Building ETL/ELT pipelines to ingest and integrate departmental data into the central repository."
+      ],
+      "techStack": ["Microsoft Fabric", "Fabric Data Factory", "ETL/ELT", "SQL"]
+    },
+    {
+      "role": "Python Developer (Freelance)",
+      "company": "Freelance",
+      "location": "",
+      "start": "2024",
+      "end": "2026",
+      "current": false,
+      "bullets": [
+        "Developed Python solutions for client requirements and independent projects.",
+        "Built and maintained application features and automation, resolving issues and refining solutions based on project needs."
+      ],
+      "techStack": ["Python", "Django", "SQL", "REST APIs", "Git"]
+    },
+    {
+      "role": "Python Intern",
+      "company": "ZIGRON",
+      "location": "Islamabad",
+      "start": "July 2024",
+      "end": "Sep 2024",
+      "current": false,
+      "bullets": [
+        "Built and maintained Python-based ETL scripts for backend data handling, automation and internal tooling.",
+        "Developed and optimized internal data tools, improving pipeline efficiency, code maintainability and reliability.",
+        "Assisted in debugging, testing and deploying Python-based services using Git best practices."
+      ],
+      "techStack": ["Python", "ETL", "Git"]
+    },
+    {
+      "role": "On-Page SEO Specialist",
+      "company": "",
+      "location": "",
+      "start": "2022",
+      "end": "2024",
+      "current": false,
+      "bullets": [
+        "Improved on-page search visibility through keyword research and optimization of page titles, meta descriptions, headings, and content.",
+        "Reviewed page structure, internal links, and URLs and used search performance insights to guide optimization work."
+      ],
+      "techStack": ["Google Search Console", "Google Analytics", "WordPress", "HTML", "CSS", "SEO tools"]
+    }
+  ],
+  "projects": [
+    {
+      "title": "NYC Taxi End-to-End Data Engineering",
+      "stack": ["Azure Data Factory", "Databricks", "PySpark", "Delta Lake", "Power BI"],
+      "filters": ["Azure", "Databricks"],
+      "bullets": [
+        "Cloud ETL/ELT pipeline orchestrated with Azure Data Factory, ADLS Gen2 as the data lake, Medallion Architecture (Bronze, Silver, Gold).",
+        "PySpark on Azure Databricks with Delta Lake for ACID transactions and time travel.",
+        "Databricks-to-Data Lake access secured with an Azure Service Principal; data quality validated across layers; curated data visualized in Power BI."
+      ],
+      "github": "https://github.com/asadafridi567/Azure-Data-Engineering-Projects/tree/main/NYC%20Taxi%20End-to-End%20Data%20Engineering%20Project"
+    },
+    {
+      "title": "Netflix Azure End-to-End Data Engineering",
+      "stack": ["ADF", "ADLS Gen2", "Databricks", "DLT", "Unity Catalog", "Power BI"],
+      "filters": ["Azure", "Databricks"],
+      "bullets": [
+        "Parameterized ADF pipelines ingesting from HTTP/REST APIs into a Medallion lakehouse.",
+        "Databricks Autoloader for incremental ingestion; PySpark for schema casting and window-function transformations.",
+        "Gold-layer pipelines with Delta Live Tables and data quality Expectations; governance through Unity Catalog."
+      ],
+      "github": "https://github.com/asadafridi567/Azure-Data-Engineering-Projects/tree/main/Netflix%20Azure%20End-to-End%20Data%20Engineering%20Project"
+    },
+    {
+      "title": "Spotify Azure End-to-End Data Engineering",
+      "stack": ["ADF", "Databricks", "DLT", "Unity Catalog", "Logic Apps", "CI/CD"],
+      "filters": ["Azure", "Databricks", "Streaming"],
+      "bullets": [
+        "Dynamic ADF pipelines with backfilling, moving data from Azure SQL Database to an ADLS Gen2 lakehouse.",
+        "Spark Structured Streaming with Autoloader and SCD Type 2 logic via Delta Live Tables.",
+        "Jinja-templated, metadata-driven SQL views; Logic Apps failure alerts; Databricks Asset Bundles for CI/CD."
+      ],
+      "github": "https://github.com/asadafridi567/Azure-Data-Engineering-Projects/tree/main/Spotify%20Data%20Engineering%20Project"
+    },
+    {
+      "title": "Walmart Data Engineering Pipeline",
+      "stack": ["PostgreSQL", "dbt", "Apache Airflow", "Docker", "Databricks SDK"],
+      "filters": ["Databricks", "dbt/Airflow"],
+      "bullets": [
+        "ELT pipeline structured as Bronze/Silver/Gold using PostgreSQL, dbt and Airflow.",
+        "dbt models producing Silver business entities (customer, order, product, employee) and Gold fact and dimension tables.",
+        "Containerized Airflow DAGs that use the Databricks SDK to trigger a Databricks ingestion job."
+      ],
+      "github": "https://github.com/asadafridi567/Walmart_Airflow_DBT_Project"
+    },
+    {
+      "title": "Flight Delay Prediction Pipeline",
+      "stack": ["Databricks", "dbt", "Airflow", "Docker", "FastAPI", "Power BI"],
+      "filters": ["Databricks", "dbt/Airflow"],
+      "bullets": [
+        "Medallion pipeline on BTS On-Time Performance data (10.5M+ flight records) with dbt-databricks and a self-determining incremental ingestion notebook that loads only missing months.",
+        "Gold star schema with SCD2 snapshots for airport and carrier dimensions; Dockerized Airflow DAGs with dbt snapshot/run/test and failure alerting.",
+        "Two consumers of the Gold layer: a FastAPI + LLM text-to-SQL agent with a Streamlit UI, and a Power BI DirectQuery dashboard."
+      ],
+      "github": "https://github.com/asadafridi567/Flight-Delay-Prediction-Pipeline"
+    },
+    {
+      "title": "Merit Order ETL Pipeline",
+      "stack": ["Databricks", "PySpark", "Delta Lake", "Unity Catalog", "ai_parse_document"],
+      "filters": ["Databricks"],
+      "bullets": [
+        "Bronze/Silver/Gold pipeline tracking plant-wise fuel costs on Pakistan's power grid from NTDC Merit Order reports; PDF links extracted from the source site's compiled Angular JS bundle.",
+        "Databricks ai_parse_document OCR for scanned report tables into a structured 8-column schema, then PySpark and Delta Lake validation and cost calculations in Silver.",
+        "Chained Databricks Job (Ingestion, Transformation, Insights) with per-fuel-type IQR outlier detection in Gold, separating market-wide cost shocks from plant-specific anomalies."
+      ],
+      "github": "https://github.com/asadafridi567/Merit-Order-ETL-Pipeline"
+    }
+  ],
+  "certifications": [
+    {"name": "Microsoft Certified: Fabric Analytics Engineer Associate", "issuer": "Microsoft", "code": "DP-600"},
+    {"name": "Microsoft Certified: Fabric Data Engineer Associate", "issuer": "Microsoft", "code": "DP-700"},
+    {"name": "IBM Data Engineer Professional Certificate", "issuer": "IBM", "code": "TODO: confirm"},
+    {"name": "Microsoft Azure SQL Certificate", "issuer": "TODO: confirm", "code": "TODO: confirm"},
+    {"name": "Google IT Automation with Python", "issuer": "Google", "code": "TODO: confirm"}
+  ],
+  "education": [
+    {
+      "qualification": "Bachelor in Software Engineering",
+      "institution": "HITEC University",
+      "location": "Taxila, Pakistan",
+      "start": "Sep 2021",
+      "end": "July 2025"
+    },
+    {
+      "qualification": "Intermediate in Pre-Engineering",
+      "institution": "HITEC College",
+      "location": "Taxila, Pakistan",
+      "start": "2017",
+      "end": "2019"
+    }
+  ],
+  "contact": {
+    "email": "muasad007@gmail.com",
+    "linkedin": "https://linkedin.com/in/muhammad-asad-de",
+    "github": "https://github.com/asadafridi567"
+  }
+}
